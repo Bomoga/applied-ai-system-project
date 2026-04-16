@@ -9,3 +9,13 @@ id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
 8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
 9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
 10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+11,Drop the Bass,Voltage Surge,edm,energetic,0.96,140,0.72,0.94,0.03
+12,Dirt Road Gospel,Caleb Dunn,country,nostalgic,0.52,104,0.78,0.65,0.74
+13,Broken Strings,Mara Voss,acoustic folk,sad,0.31,68,0.22,0.38,0.95
+14,Moonlit Sonata,Clara & the Keys,classical,romantic,0.26,84,0.88,0.34,0.97
+15,Block Party,Kash Cole,hip-hop,energetic,0.84,96,0.68,0.91,0.08
+16,Golden Hour,Sable Row,r&b,romantic,0.61,95,0.83,0.76,0.42
+17,Fade to Black,Hollow Chest,rock,sad,0.72,130,0.18,0.55,0.12
+18,Porch Light,June Vail,acoustic folk,nostalgic,0.38,76,0.74,0.47,0.93
+19,Neon Jungle,Parallax,edm,moody,0.88,135,0.41,0.86,0.04
+20,Sunday Smooth,Kash Cole,r&b,relaxed,0.48,88,0.79,0.69,0.55
