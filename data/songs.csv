@@ -1,21 +1,37 @@
-id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
-1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18
-2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71
-3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10
-4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86
-5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05
-6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92
-7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89
-8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
-9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
-10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
-11,Drop the Bass,Voltage Surge,edm,energetic,0.96,140,0.72,0.94,0.03
-12,Dirt Road Gospel,Caleb Dunn,country,nostalgic,0.52,104,0.78,0.65,0.74
-13,Broken Strings,Mara Voss,acoustic folk,sad,0.31,68,0.22,0.38,0.95
-14,Moonlit Sonata,Clara & the Keys,classical,romantic,0.26,84,0.88,0.34,0.97
-15,Block Party,Kash Cole,hip-hop,energetic,0.84,96,0.68,0.91,0.08
-16,Golden Hour,Sable Row,r&b,romantic,0.61,95,0.83,0.76,0.42
-17,Fade to Black,Hollow Chest,rock,sad,0.72,130,0.18,0.55,0.12
-18,Porch Light,June Vail,acoustic folk,nostalgic,0.38,76,0.74,0.47,0.93
-19,Neon Jungle,Parallax,edm,moody,0.88,135,0.41,0.86,0.04
-20,Sunday Smooth,Kash Cole,r&b,relaxed,0.48,88,0.79,0.69,0.55
+id,title,artist,genre,mood,energy,acousticness
+1,Neon Drift,Synthwave Kid,edm,energetic,0.92,0.05
+2,Midnight Rain,The Velvet Moths,lofi,chill,0.32,0.78
+3,Storm Chaser,Iron Circuit,rock,intense,0.88,0.12
+4,Golden Hour,Priya Nair,pop,happy,0.74,0.35
+5,Quiet Forest,Maren Sol,classical,chill,0.21,0.95
+6,Bass Drop City,DJ Phantom,edm,energetic,0.96,0.03
+7,Paper Crane,Hana Okafor,lofi,sad,0.28,0.85
+8,Fist Fight,The Howlers,metal,intense,0.94,0.07
+9,Sunday Brunch,Café Ensemble,jazz,happy,0.48,0.72
+10,Runaway Train,Dusty Miles,rock,energetic,0.81,0.18
+11,Digital Hearts,LUNA,pop,romantic,0.65,0.30
+12,Velvet Dusk,Midnight Haze,lofi,romantic,0.35,0.80
+13,Concrete Jungle,K-Street,hiphop,intense,0.78,0.10
+14,Cherry Blossom Road,Yuki Tanaka,classical,romantic,0.30,0.92
+15,Electric Sunday,The Static,pop,energetic,0.85,0.22
+16,Blue Note Rising,Clarence Webb,jazz,chill,0.44,0.68
+17,Shattered Glass,Void Engine,metal,intense,0.97,0.04
+18,Honey Jar,Selena Voss,pop,happy,0.62,0.40
+19,Hammock Dreams,River Oak,lofi,chill,0.25,0.88
+20,Headphones In,MC Vortex,hiphop,energetic,0.80,0.15
+21,Rainy Café,Acoustic Soul,jazz,sad,0.36,0.75
+22,Second Sun,Nova Drive,edm,happy,0.87,0.08
+23,Broken Compass,The Drifters,rock,sad,0.55,0.42
+24,Waltz for Nobody,Clara Stein,classical,sad,0.18,0.97
+25,Street Prophets,Lena Ray,hiphop,romantic,0.60,0.25
+26,Fire and Smoke,Ironclad,metal,energetic,0.95,0.06
+27,Slow Burn,Ash and Ember,rock,romantic,0.50,0.55
+28,Morning Fog,The Still,lofi,chill,0.22,0.90
+29,Pixel Love,Datawave,edm,romantic,0.70,0.12
+30,Lullaby Engine,Soft Static,classical,chill,0.15,0.93
+31,Crown Heights Anthem,Dre Solano,hiphop,happy,0.72,0.20
+32,The Last Dance,Vivienne Cole,pop,sad,0.45,0.50
+33,Thunder Miles,Ridge Kings,rock,intense,0.90,0.10
+34,Cafe au Lait,Bianca Marsh,jazz,romantic,0.42,0.70
+35,Infinite Loop,Circuit Breaker,edm,chill,0.58,0.15
+36,Hymn for the Lost,Elara Stone,classical,sad,0.20,0.94
