@@ -167,3 +167,7 @@ Building TuneMatch made concrete something that is easy to say but hard to feel:
 What surprised me most was how good the top results looked for the profiles that happened to match the weight assumptions, and how quickly quality degraded for the ones that did not. The lofi/chill/acoustic profile produced three perfect 9.5-score results immediately. A hypothetical "jazz but intense and electronic" profile would almost certainly surface songs that feel wrong, because the catalog has no jazz songs that are intense — the genre and mood constraints are in tension. The system has no way to resolve that tension gracefully; it just returns the least-bad options.
 
 If this were a production system, the two most impactful additions would be: first, a feedback loop that adjusts weights per user after each session (even a simple thumbs-up/thumbs-down would help enormously); and second, a much larger catalog with finer-grained attributes. Spotify's audio features include tempo, danceability, valence, key, and mode — each of which opens up more precise matching that would let the system distinguish "intense jazz" from "relaxed jazz" rather than treating the whole genre as a monolith.
+
+## Loom
+
+https://www.loom.com/share/76861bd48b554fdf97d6b57c7300a884

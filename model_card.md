@@ -2,13 +2,13 @@
 
 ## 1. Model Name
 
-**VibeFinder 1.0**
+**TuneMatch 1.0**
 
 ---
 
 ## 2. Intended Use
 
-VibeFinder suggests the top 5 songs from a 20-song catalog that best match a user's stated taste preferences. It is designed for classroom exploration of how content-based recommendation systems work — not for production use with real users.
+TuneMatch suggests the top 5 songs from a 20-song catalog that best match a user's stated taste preferences. It is designed for classroom exploration of how content-based recommendation systems work — not for production use with real users.
 
 The system assumes the user can describe their taste in four concrete dimensions: preferred genre, preferred mood, a target energy level (0.0 = very calm, 1.0 = very intense), and whether they prefer acoustic or electronic instrumentation. It makes no attempt to learn from listening history or implicit feedback.
 
@@ -18,7 +18,7 @@ The system assumes the user can describe their taste in four concrete dimensions
 
 Imagine you are a music journalist who has to recommend songs to a friend. You know your friend likes pop, happy vibes, and high-energy tracks. For every song in your collection, you mentally check: does the genre match? does the mood match? how close is the energy to what they like? You add points for each hit and then hand over the songs with the highest totals.
 
-VibeFinder works the same way. For each song in the catalog, it awards:
+TuneMatch works the same way. For each song in the catalog, it awards:
 - 2 points if the genre matches the user's preference (genre is the strongest signal)
 - 1 point if the mood matches
 - Between 0 and 1 points based on how close the song's energy is to the user's target (a perfect match gives the full 1 point)
@@ -97,6 +97,6 @@ Three user profiles were tested by running the CLI and inspecting whether the to
 
 ## 9. Personal Reflection
 
-The most surprising thing about building VibeFinder was how much the weighting decisions felt like value judgments rather than technical choices. Setting genre to 2.0 points is essentially saying "genre is twice as important as mood" — but that's not obviously true for everyone. Some people discover music by mood (study playlists, workout playlists) without caring about genre at all. The weights I chose reflect one particular model of how music preference works, and that model is baked invisibly into every recommendation the system produces.
+The most surprising thing about building TuneMatch was how much the weighting decisions felt like value judgments rather than technical choices. Setting genre to 2.0 points is essentially saying "genre is twice as important as mood" — but that's not obviously true for everyone. Some people discover music by mood (study playlists, workout playlists) without caring about genre at all. The weights I chose reflect one particular model of how music preference works, and that model is baked invisibly into every recommendation the system produces.
 
-Building this also changed how I think about Spotify's Discover Weekly. What seemed like magic — the system somehow knowing what I'd like — now looks more like a very large version of this: hundreds of audio features, millions of users, and carefully tuned weights. The difference is that Spotify's weights are learned from billions of listening events, so they adapt to individual behavior instead of applying a one-size-fits-all formula. The core idea, though, is exactly what VibeFinder does: score each candidate against a model of what the user likes, then rank.
+Building this also changed how I think about Spotify's Discover Weekly. What seemed like magic — the system somehow knowing what I'd like — now looks more like a very large version of this: hundreds of audio features, millions of users, and carefully tuned weights. The difference is that Spotify's weights are learned from billions of listening events, so they adapt to individual behavior instead of applying a one-size-fits-all formula. The core idea, though, is exactly what TuneMatch does: score each candidate against a model of what the user likes, then rank.
