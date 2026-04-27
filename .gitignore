@@ -1,6 +1,6 @@
-# Byte compiled
+# Byte-compiled
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 
 # Virtual environments
@@ -11,5 +11,18 @@ venv/
 # OS files
 .DS_Store
 
-# Pytest cache
+# Pytest / coverage
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/*.log
+
+# Environment variables
+.env
+
+# Package build artifacts
+*.egg-info/
+dist/
+build/
