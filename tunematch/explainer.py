@@ -31,6 +31,6 @@ def explain(song: dict, profile: dict) -> str:
     header = f"{song['title']} by {song['artist']} (score: {score:.1f})"
 
     if not matched:
-        return f"{header} — No strong matches, but included as a suggestion."
+        return f"{header} -- No strong matches, but included as a suggestion."
 
-    return f"{header} — Matched: {', '.join(matched)}"
+    return f"{header} -- Matched: {', '.join(matched)}"
