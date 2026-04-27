@@ -43,7 +43,6 @@ main.py
 ```
 
 ![System Architecture](assets/architecture.png)
-> _Diagram coming soon -- see `/assets` folder._
 
 ---
 
